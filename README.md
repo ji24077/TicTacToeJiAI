@@ -19,6 +19,7 @@ As a player, I want to enjoy a game of TicTacToe against a friend, where we take
 
 1. Model-View-Presenter (MVP) Architecture: Separates the logic into three components - Model (TicTacToeModel), View (MainActivity), and Presenter (TicTacToePresenter), improving maintainability and testability.
 2. Observer Pattern: Used to notify the MainActivity of game state changes (player turn, win, draw) from the TicTacToeModel.
+3.Dependency injection design pattern used to implments TicTacToe.
 
 ## Java Version and Testing Framework
 
